@@ -6,14 +6,7 @@ public class OpcionesConversor {
     //llamo a la clase convertir monedas
     ConvertirMoneda moneda = new ConvertirMoneda();
 
-    // /**
-    //  * @param option
-    //  */
-    // public void ValidarOption(double option) {
-    //     if (){
-    //         JOptionPane.showMessageDialog(null, "Valor no Valido!");
-    //     }
-    // }
+    
     public boolean Confirmar(boolean comienzo) {
         int respuesta = JOptionPane.showConfirmDialog(null, "Desea continuar?");
         if (JOptionPane.OK_OPTION == respuesta) {
